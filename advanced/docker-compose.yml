@@ -39,3 +39,12 @@ services:
 
 volumes:
   db-data:
+
+# sudo docker-compose build
+# docker-compose -f docker-compose.yml up -d
+# docker exec wiki-app npm install   # only necessary the first time
+# docker exec wiki-app npm run dev
+
+# Production
+# docker exec wiki-app npm run build
+# docker exec wiki-app npm run start
