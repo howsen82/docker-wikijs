@@ -48,3 +48,4 @@ volumes:
 # Production
 # docker exec wiki-app npm run build
 # docker exec wiki-app npm run start
+# sudo docker-compose -f wikijs-docker-compose.yaml up -d
